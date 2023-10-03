@@ -1,11 +1,5 @@
-import './styles.css';
-
-import { Event } from './Event/Event';
+import './assets/global.css';
 
 export default function App() {
-  return (
-    <div>
-      <Event />
-    </div>
-  );
+  return <h1>Hello React World!</h1>;
 }
